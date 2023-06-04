@@ -5,8 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-9">
             <div class="card">
-                <div class="card-header">
-                    <h2 class="text-center">Cars</h2>
+                <div class="card-header" style="background-color: rgb(35, 18, 75); color: white; display: flex; align-items: center;">
+                    <img src="car-logo.png" style="vertical-align: middle; margin-right: 5px; width: 50px;">
+                    <h2 class="text-center" style="margin-bottom: 0;">Cars</h2>
                 </div>
                 <div class="card-body">
                     <div class="text-end mb-3">

@@ -10,6 +10,7 @@
     <style>
         h3 {
             color: white;
+            font-size: 20px;
         }
 
         .active-link {
@@ -84,26 +85,38 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 sidebar">
-                <a href="{{ route('homepage.index') }}" style="text-decoration: none; color: inherit;">
+                <a href="{{ route('homepage.index') }}" style="text-decoration: none; color: inherit; display: block; text-align: center;">
+                    <img src="logo.png" style="width: 70%; display: block; margin: 0 auto;">
                     <h3 class="text-center mt-4 mb-4">Elichan Cardealership App</h3>
                 </a>
+                <br>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('employees*') ? 'active-link' : '' }}" href="{{ route('employees.index') }}">
-                            <button class="btn dashboard-btn btn-primary">Employees</button>
+                        <a class="nav-link {{ Request::is('employees*') ? 'active-link' : '' }}" href="{{ route('employees.index') }}" style="font-family: 'Arial', sans-serif; color: white; text-align: center;">
+                            <button class="btn dashboard-btn btn-primary">
+                                <img src="employees.png" style="vertical-align: middle; margin-right: 5px;">
+                                Employees
+                            </button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('transactions*') ? 'active-link' : '' }}" href="{{ route('transactions.index') }}">
-                            <button class="btn dashboard-btn btn-primary">Transactions</button>
+                            <button class="btn dashboard-btn btn-primary">
+                                <img src="transactions.png" style="vertical-align: middle; margin-right: 5px;">
+                                Transactions
+                            </button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('cars*') ? 'active-link' : '' }}" href="{{ route('cars.index') }}">
-                            <button class="btn dashboard-btn btn-primary">Cars</button>
+                            <button class="btn dashboard-btn btn-primary">
+                                <img src="cars.png" style="vertical-align: middle; margin-right: 5px;">
+                                Cars
+                            </button>
                         </a>
                     </li>
                 </ul>
+                <br>
                 <div class="center-align">
                     <form action="{{ route('logout') }}" method="POST">
                         @csrf

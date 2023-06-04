@@ -4,8 +4,9 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">
-                    <h2 class="text-center">Transactions</h2>
+                <div class="card-header" style="background-color: rgb(35, 18, 75); color: white; display: flex; align-items: center;">
+                    <img src="transaction-logo.png" style="vertical-align: middle; margin-right: 5px; width: 50px;">
+                    <h2 class="text-center" style="margin-bottom: 0;">Transactions</h2>
                 </div>
                 <div class="card-body">
                     <form method="GET" action="{{ route('transactions.index') }}">
@@ -111,8 +112,6 @@
         var transactionType = document.querySelector('select[name="transaction_type"]').value;
         var transactionStatus = document.querySelector('select[name="transaction_status"]').value;
         
-        // Make an AJAX request to the server with the filter values
-        // Replace the placeholder code below with your actual AJAX request code
         console.log("Filter values:", firstName, lastName, carModel, transactionType, transactionStatus);
     }
     
@@ -124,8 +123,6 @@
         document.querySelector('select[name="transaction_type"]').value = '';
         document.querySelector('select[name="transaction_status"]').value = '';
         
-        // Make an AJAX request to the server to reset the filters
-        // Replace the placeholder code below with your actual AJAX request code
         console.log("Filters reset");
     }
 </script>
