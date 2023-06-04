@@ -181,6 +181,23 @@ To install Composer, you can follow these steps:
 
 <br> </br>
 
+- Running the server
+
+1. On the project's root directory, run the terminal and paste the code below.
+     ```
+     php artisan serve
+     ```
+2. Open another terminal on the project's root directoty and paste the code below.
+     ```
+     npm run dev
+     ```
+3. Open the link given after you enter the command "php artisan serve" in your browser. or paste the link below in your browser.
+     ```
+     http://127.0.0.1:8000
+     ```
+
+<br> </br>
+
 # Usage
 
 The EliChan Car Dealership app can be used in a number of ways: 
