@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/github/forks/xchan344/Elichan-cardealership-app?style=social" alt="Forks"></a>
 
 <h2> System Features </h2>
+
 - **Account registration**
 
 - **Sign in & Sign out**
