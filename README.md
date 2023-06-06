@@ -58,6 +58,11 @@
 
 <br> </br>
 
+![Elichan Cardealership App](public/img/Laravel-Elichan-Cardealership-App.gif)
+
+*The gif above shows the working project*
+
+<br> </br>
 
 # Installation
 

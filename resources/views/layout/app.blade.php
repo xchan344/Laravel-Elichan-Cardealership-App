@@ -86,7 +86,7 @@
         <div class="row">
             <div class="col-md-2 sidebar">
                 <a href="{{ route('homepage.index') }}" style="text-decoration: none; color: inherit; display: block; text-align: center;">
-                    <img src="logo.png" style="width: 70%; display: block; margin: 0 auto;">
+                    <img src="/logo.png" style="width: 70%; display: block; margin: 0 auto;">
                     <h3 class="text-center mt-4 mb-4">Elichan Cardealership App</h3>
                 </a>
                 <br>
@@ -94,7 +94,7 @@
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('employees*') ? 'active-link' : '' }}" href="{{ route('employees.index') }}" style="font-family: 'Arial', sans-serif; color: white; text-align: center;">
                             <button class="btn dashboard-btn btn-primary">
-                                <img src="employees.png" style="vertical-align: middle; margin-right: 5px;">
+                                <img src="/employees.png" style="vertical-align: middle; margin-right: 5px;">
                                 Employees
                             </button>
                         </a>
@@ -102,7 +102,7 @@
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('transactions*') ? 'active-link' : '' }}" href="{{ route('transactions.index') }}">
                             <button class="btn dashboard-btn btn-primary">
-                                <img src="transactions.png" style="vertical-align: middle; margin-right: 5px;">
+                                <img src="/transactions.png" style="vertical-align: middle; margin-right: 5px;">
                                 Transactions
                             </button>
                         </a>
@@ -110,7 +110,7 @@
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('cars*') ? 'active-link' : '' }}" href="{{ route('cars.index') }}">
                             <button class="btn dashboard-btn btn-primary">
-                                <img src="cars.png" style="vertical-align: middle; margin-right: 5px;">
+                                <img src="/cars.png" style="vertical-align: middle; margin-right: 5px;">
                                 Cars
                             </button>
                         </a>
