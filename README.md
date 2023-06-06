@@ -8,7 +8,9 @@
 
 <h2> System Features </h2>
 
-- **Sign in & Sign out** - The user can Sign in and Sign out using Registered accounts into the system. this is a security feature to prevent unregistered users from accessing the system.
+- **Account registration**
+
+- **Sign in & Sign out**
 
 - **CRUD** - The system has CRUD features:
     1. Create - The user can Add Employee Data, Transaction Data, and Car Data into the system.
